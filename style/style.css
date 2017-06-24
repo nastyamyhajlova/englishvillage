@@ -1,10 +1,13 @@
 body {
-    background-image: url(img/qqq.jpg); /* Путь к фоновому изображению */
-    background-color: #c7b39b; /* Цвет фона */
+    background: url(../img/fon.png) repeat #fc0; /* Цвет фона, путь к фоновому изображению и повторение фона по вертикали */
+    margin: 0;
+    padding: 0;
 }
 
 #logo{
     padding: 50px;
+    background-color: #C3FDD7;
+    margin: 2%;
 }
 
 .logo{
@@ -15,15 +18,13 @@ body {
 
 #content{
     background: #ffefd5;
-    margin: 0;
-    padding: 0;
     padding: 2%;
+    margin-left: 2%;
+    margin-right: 0%;
 }
 
 #content p{
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #content img{
@@ -60,7 +61,7 @@ body {
 }
 
 #menu a:hover{
-    background-color: #ffdab9;
+    background-color: #FCEA97;
     color: black;
 
 }

@@ -22,7 +22,8 @@ $mydbconnect=new Db();
 
 <body>
 <div id="main" class="row">
-    <div id="logo" class="col-md-12">
+    <div id="logo">
+        <img src="img/logo.png">
         <h1 class="logo">"ЛЕТНИЙ ЛАГЕРЬ "ENGLISH VILLAGE"</h1>
     </div>
 </div>
